@@ -32,7 +32,14 @@ h2 {
     font-size: 3rem;
 }
 
-p {
+h3 {
+    color: var(--white-title);
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+p, span {
     color: var(--grey-text);
     font-family:  "Inter", sans-serif;
     font-weight: 400;
@@ -193,13 +200,12 @@ footer {
 .content-text {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .text-1 {
     display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 
 .text-2 {
@@ -209,11 +215,14 @@ footer {
     gap: 3%;
 }
 
+.text-3 {
+    text-align: center;
+}
+
 footer img {
     height: 3rem;
 }
 
-footer p {
+footer p, span {
     font-size: 1rem;
-
 }
